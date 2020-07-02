@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48E38924ADAED300EC6B66 /* ImageChallengeView.swift */; };
 		EE544A2924AA2D3400698415 /* SwiftUIChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE544A2824AA2D3400698415 /* SwiftUIChallengeApp.swift */; };
 		EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE544A2A24AA2D3400698415 /* ContentView.swift */; };
 		EE544A2D24AA2D3500698415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE544A2C24AA2D3500698415 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE48E38924ADAED300EC6B66 /* ImageChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChallengeView.swift; sourceTree = "<group>"; };
 		EE544A2524AA2D3400698415 /* SwiftUIChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE544A2824AA2D3400698415 /* SwiftUIChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChallengeApp.swift; sourceTree = "<group>"; };
 		EE544A2A24AA2D3400698415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE48E38824ADAE8400EC6B66 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE48E38924ADAED300EC6B66 /* ImageChallengeView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		EE544A1C24AA2D3400698415 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		EE544A2724AA2D3400698415 /* SwiftUIChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EE48E38824ADAE8400EC6B66 /* Images */,
 				EE544A3724AA2D5300698415 /* Text */,
 				EE544A2824AA2D3400698415 /* SwiftUIChallengeApp.swift */,
 				EE544A2A24AA2D3400698415 /* ContentView.swift */,
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */,
 				EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */,
 				EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */,
 				EE544A2924AA2D3400698415 /* SwiftUIChallengeApp.swift in Sources */,
