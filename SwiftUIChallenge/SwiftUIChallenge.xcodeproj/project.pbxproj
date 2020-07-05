@@ -13,6 +13,9 @@
 		EE544A2D24AA2D3500698415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE544A2C24AA2D3500698415 /* Assets.xcassets */; };
 		EE544A3024AA2D3500698415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE544A2F24AA2D3500698415 /* Preview Assets.xcassets */; };
 		EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE544A3824AA2D7D00698415 /* TextChallengeView.swift */; };
+		EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C224B1C06900224A66 /* UIView+Custom.swift */; };
+		EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C324B1C06900224A66 /* AddOverlay.swift */; };
+		EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C424B1C06900224A66 /* OutlinedText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EE544A2F24AA2D3500698415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE544A3124AA2D3500698415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE544A3824AA2D7D00698415 /* TextChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChallengeView.swift; sourceTree = "<group>"; };
+		EE7666C224B1C06900224A66 /* UIView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
+		EE7666C324B1C06900224A66 /* AddOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOverlay.swift; sourceTree = "<group>"; };
+		EE7666C424B1C06900224A66 /* OutlinedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +92,20 @@
 		EE544A3724AA2D5300698415 /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				EE7666C124B1C06900224A66 /* Components */,
 				EE544A3824AA2D7D00698415 /* TextChallengeView.swift */,
 			);
 			path = Text;
+			sourceTree = "<group>";
+		};
+		EE7666C124B1C06900224A66 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE7666C224B1C06900224A66 /* UIView+Custom.swift */,
+				EE7666C324B1C06900224A66 /* AddOverlay.swift */,
+				EE7666C424B1C06900224A66 /* OutlinedText.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */,
+				EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */,
+				EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */,
 				EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */,
 				EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */,
+				EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */,
 				EE544A2924AA2D3400698415 /* SwiftUIChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
