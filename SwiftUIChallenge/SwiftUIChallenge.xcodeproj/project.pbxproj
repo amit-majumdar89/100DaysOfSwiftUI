@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3CC71224B31A9800EAE199 /* AttributedTextChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3CC71124B31A9800EAE199 /* AttributedTextChallenge.swift */; };
 		EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48E38924ADAED300EC6B66 /* ImageChallengeView.swift */; };
 		EE544A2924AA2D3400698415 /* SwiftUIChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE544A2824AA2D3400698415 /* SwiftUIChallengeApp.swift */; };
 		EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE544A2A24AA2D3400698415 /* ContentView.swift */; };
@@ -16,9 +17,12 @@
 		EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C224B1C06900224A66 /* UIView+Custom.swift */; };
 		EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C324B1C06900224A66 /* AddOverlay.swift */; };
 		EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C424B1C06900224A66 /* OutlinedText.swift */; };
+		EE91A59D24BA489E00B225C2 /* StackChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */; };
+		EE91A62224BB736300B225C2 /* ScrollChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91A62124BB736300B225C2 /* ScrollChallenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE3CC71124B31A9800EAE199 /* AttributedTextChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedTextChallenge.swift; sourceTree = "<group>"; };
 		EE48E38924ADAED300EC6B66 /* ImageChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChallengeView.swift; sourceTree = "<group>"; };
 		EE544A2524AA2D3400698415 /* SwiftUIChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE544A2824AA2D3400698415 /* SwiftUIChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChallengeApp.swift; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		EE7666C224B1C06900224A66 /* UIView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
 		EE7666C324B1C06900224A66 /* AddOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOverlay.swift; sourceTree = "<group>"; };
 		EE7666C424B1C06900224A66 /* OutlinedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedText.swift; sourceTree = "<group>"; };
+		EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackChallengeView.swift; sourceTree = "<group>"; };
+		EE91A62124BB736300B225C2 /* ScrollChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 		EE544A2724AA2D3400698415 /* SwiftUIChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EE91A59724BA249A00B225C2 /* Stack */,
 				EE48E38824ADAE8400EC6B66 /* Images */,
 				EE544A3724AA2D5300698415 /* Text */,
 				EE544A2824AA2D3400698415 /* SwiftUIChallengeApp.swift */,
@@ -94,6 +101,7 @@
 			children = (
 				EE7666C124B1C06900224A66 /* Components */,
 				EE544A3824AA2D7D00698415 /* TextChallengeView.swift */,
+				EE3CC71124B31A9800EAE199 /* AttributedTextChallenge.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -106,6 +114,15 @@
 				EE7666C424B1C06900224A66 /* OutlinedText.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EE91A59724BA249A00B225C2 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */,
+				EE91A62124BB736300B225C2 /* ScrollChallenge.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +197,10 @@
 				EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */,
 				EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */,
 				EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */,
+				EE91A59D24BA489E00B225C2 /* StackChallengeView.swift in Sources */,
+				EE91A62224BB736300B225C2 /* ScrollChallenge.swift in Sources */,
 				EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */,
+				EE3CC71224B31A9800EAE199 /* AttributedTextChallenge.swift in Sources */,
 				EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */,
 				EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */,
 				EE544A2924AA2D3400698415 /* SwiftUIChallengeApp.swift in Sources */,
