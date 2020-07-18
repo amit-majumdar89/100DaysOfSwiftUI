@@ -14,9 +14,14 @@
 		EE544A2D24AA2D3500698415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE544A2C24AA2D3500698415 /* Assets.xcassets */; };
 		EE544A3024AA2D3500698415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE544A2F24AA2D3500698415 /* Preview Assets.xcassets */; };
 		EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE544A3824AA2D7D00698415 /* TextChallengeView.swift */; };
+		EE5CA8EC24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5CA8EB24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift */; };
 		EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C224B1C06900224A66 /* UIView+Custom.swift */; };
 		EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C324B1C06900224A66 /* AddOverlay.swift */; };
 		EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C424B1C06900224A66 /* OutlinedText.swift */; };
+		EE76DB3D24C307F400BEC679 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76DB3C24C307F400BEC679 /* ContactDetails.swift */; };
+		EE8D6D9024BC948C00F26B34 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D8F24BC948C00F26B34 /* GradientButtonStyle.swift */; };
+		EE8D6D9224BC95D000F26B34 /* ButtonChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D9124BC95D000F26B34 /* ButtonChallenge.swift */; };
+		EE8D6D9624BC97D400F26B34 /* ShadowButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */; };
 		EE91A59D24BA489E00B225C2 /* StackChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */; };
 		EE91A62224BB736300B225C2 /* ScrollChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91A62124BB736300B225C2 /* ScrollChallenge.swift */; };
 /* End PBXBuildFile section */
@@ -31,9 +36,14 @@
 		EE544A2F24AA2D3500698415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE544A3124AA2D3500698415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE544A3824AA2D7D00698415 /* TextChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChallengeView.swift; sourceTree = "<group>"; };
+		EE5CA8EB24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithSegmentedControlChallenge.swift; sourceTree = "<group>"; };
 		EE7666C224B1C06900224A66 /* UIView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
 		EE7666C324B1C06900224A66 /* AddOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOverlay.swift; sourceTree = "<group>"; };
 		EE7666C424B1C06900224A66 /* OutlinedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedText.swift; sourceTree = "<group>"; };
+		EE76DB3C24C307F400BEC679 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		EE8D6D8F24BC948C00F26B34 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		EE8D6D9124BC95D000F26B34 /* ButtonChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonChallenge.swift; sourceTree = "<group>"; };
+		EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonStyle.swift; sourceTree = "<group>"; };
 		EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackChallengeView.swift; sourceTree = "<group>"; };
 		EE91A62124BB736300B225C2 /* ScrollChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +86,8 @@
 		EE544A2724AA2D3400698415 /* SwiftUIChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EE5CA8EA24C2D174008830E6 /* SegmentedControl */,
+				EE8D6D8C24BC943C00F26B34 /* Button */,
 				EE91A59724BA249A00B225C2 /* Stack */,
 				EE48E38824ADAE8400EC6B66 /* Images */,
 				EE544A3724AA2D5300698415 /* Text */,
@@ -106,6 +118,15 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		EE5CA8EA24C2D174008830E6 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				EE5CA8EB24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift */,
+				EE76DB3C24C307F400BEC679 /* ContactDetails.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
 		EE7666C124B1C06900224A66 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +135,24 @@
 				EE7666C424B1C06900224A66 /* OutlinedText.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EE8D6D8C24BC943C00F26B34 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D6D8D24BC945400F26B34 /* GradientButton */,
+				EE8D6D9124BC95D000F26B34 /* ButtonChallenge.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		EE8D6D8D24BC945400F26B34 /* GradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D6D8F24BC948C00F26B34 /* GradientButtonStyle.swift */,
+				EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */,
+			);
+			path = GradientButton;
 			sourceTree = "<group>";
 		};
 		EE91A59724BA249A00B225C2 /* Stack */ = {
@@ -195,12 +234,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */,
+				EE76DB3D24C307F400BEC679 /* ContactDetails.swift in Sources */,
 				EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */,
 				EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */,
 				EE91A59D24BA489E00B225C2 /* StackChallengeView.swift in Sources */,
+				EE5CA8EC24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift in Sources */,
 				EE91A62224BB736300B225C2 /* ScrollChallenge.swift in Sources */,
+				EE8D6D9624BC97D400F26B34 /* ShadowButtonStyle.swift in Sources */,
 				EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */,
 				EE3CC71224B31A9800EAE199 /* AttributedTextChallenge.swift in Sources */,
+				EE8D6D9224BC95D000F26B34 /* ButtonChallenge.swift in Sources */,
+				EE8D6D9024BC948C00F26B34 /* GradientButtonStyle.swift in Sources */,
 				EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */,
 				EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */,
 				EE544A2924AA2D3400698415 /* SwiftUIChallengeApp.swift in Sources */,
