@@ -19,6 +19,7 @@
 		EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C324B1C06900224A66 /* AddOverlay.swift */; };
 		EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7666C424B1C06900224A66 /* OutlinedText.swift */; };
 		EE76DB3D24C307F400BEC679 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76DB3C24C307F400BEC679 /* ContactDetails.swift */; };
+		EE76DB3F24C419C200BEC679 /* ScrollViewWithSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76DB3E24C419C200BEC679 /* ScrollViewWithSegmentControl.swift */; };
 		EE8D6D9024BC948C00F26B34 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D8F24BC948C00F26B34 /* GradientButtonStyle.swift */; };
 		EE8D6D9224BC95D000F26B34 /* ButtonChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D9124BC95D000F26B34 /* ButtonChallenge.swift */; };
 		EE8D6D9624BC97D400F26B34 /* ShadowButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */; };
@@ -41,6 +42,7 @@
 		EE7666C324B1C06900224A66 /* AddOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOverlay.swift; sourceTree = "<group>"; };
 		EE7666C424B1C06900224A66 /* OutlinedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlinedText.swift; sourceTree = "<group>"; };
 		EE76DB3C24C307F400BEC679 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		EE76DB3E24C419C200BEC679 /* ScrollViewWithSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithSegmentControl.swift; sourceTree = "<group>"; };
 		EE8D6D8F24BC948C00F26B34 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		EE8D6D9124BC95D000F26B34 /* ButtonChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonChallenge.swift; sourceTree = "<group>"; };
 		EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonStyle.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				EE5CA8EB24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift */,
 				EE76DB3C24C307F400BEC679 /* ContactDetails.swift */,
+				EE76DB3E24C419C200BEC679 /* ScrollViewWithSegmentControl.swift */,
 			);
 			path = SegmentedControl;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */,
 				EE76DB3D24C307F400BEC679 /* ContactDetails.swift in Sources */,
 				EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */,
+				EE76DB3F24C419C200BEC679 /* ScrollViewWithSegmentControl.swift in Sources */,
 				EE7666C724B1C06900224A66 /* OutlinedText.swift in Sources */,
 				EE91A59D24BA489E00B225C2 /* StackChallengeView.swift in Sources */,
 				EE5CA8EC24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift in Sources */,
