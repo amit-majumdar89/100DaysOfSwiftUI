@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ScrollChallenge: View {
     var body: some View {
-        NavigationView {
-            ScrollView {
-                ForEach(Forest.items, id:\.self) { item in
-                    ForestRow(item: item)
-                }
-            }.navigationTitle("Forests")
-        }
+        ScrollView {
+            ForEach(Forest.items, id:\.self) { item in
+                ForestRow(item: item)
+            }
+        }.navigationTitle("Forests")
     }
 }
 

@@ -9,13 +9,11 @@ import SwiftUI
 
 struct StackChallengeView: View {
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(Forest.items, id:\.self) { item in
-                    ForestRow(item: item)
-                }
-            }.navigationTitle("Forests")
-        }
+        List {
+            ForEach(Forest.items, id:\.self) { item in
+                ForestRow(item: item)
+            }
+        }.navigationTitle("Forests")
     }
 }
 
