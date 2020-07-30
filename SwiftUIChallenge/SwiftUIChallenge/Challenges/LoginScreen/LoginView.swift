@@ -11,10 +11,14 @@ struct LoginView: View {
     
     @State var email = ""
     @State var password = ""
+    @State var validEntries: Bool = false
+    @State var showErrorAlert: Bool = false
     
+
     var body: some View {
         VStack {
-            Image(systemName: "chevron.down")
+            Image("logo")
+                .frame(width: 150, height: 150, alignment: .center)
                 .padding(.bottom, 60)
             Text("Welcome!")
                 .frame(width: UIScreen.main.bounds.width - 40, height: 0, alignment: .leading)
@@ -34,6 +38,11 @@ struct LoginView: View {
                 .buttonStyle(SubmitButtonStyle())
             Spacer(minLength: 0)
         }
+        .alert(isPresented: $showErrorAlert) { () -> Alert in
+            Alert(title: Text("Something went wrong"),
+                  message: Text("Please verify whether the entered email or password is correct"),
+                  dismissButton: .default(Text("Ok")))
+        }
     }
     
     func forgotPasswordTapped() {
@@ -41,7 +50,11 @@ struct LoginView: View {
     }
     
     func submitTapped() {
-        print("Submit Tapped")
+        if email.isValidEmail() && password.isValidPassword() {
+            self.validEntries = true
+        } else {
+            self.showErrorAlert = true
+        }
     }
 }
 
@@ -61,5 +74,20 @@ struct SubmitButtonStyle: ButtonStyle {
             .background(Color.blue)
             .cornerRadius(40)
             .padding(.horizontal, 20)
+    }
+}
+
+
+extension String {
+    func isValidEmail() -> Bool {
+        let regex = try! NSRegularExpression(pattern: "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$", options: .caseInsensitive)
+        return regex.firstMatch(in: self, options: [], range: NSRange(location: 0, length: count)) != nil
+    }
+
+    func isValidPassword() -> Bool {
+        let password = self.trimmingCharacters(in: CharacterSet.whitespaces)
+        let passwordRegx = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&<>*~:`-]).{8,}$"
+        let passwordCheck = NSPredicate(format: "SELF MATCHES %@",passwordRegx)
+        return passwordCheck.evaluate(with: password)
     }
 }
