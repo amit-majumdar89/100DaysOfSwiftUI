@@ -17,6 +17,7 @@ enum Topics {
     case segment
     case segmentOptionalChallenge
     case login
+    case complexUI
 }
 
 struct MasterGroup: View {
@@ -28,13 +29,14 @@ struct MasterGroup: View {
                                   .init(topicName: "Button", topic: .button),
                                   .init(topicName: "Segment Control", topic: .segment),
                                   .init(topicName: "Segment Optional Challenge", topic: .segmentOptionalChallenge),
-                                  .init(topicName: "Login Screen Challenge", topic: .login)]
+                                  .init(topicName: "Login Screen Challenge", topic: .login),
+                                  .init(topicName: "Complex UI", topic: .complexUI)]
     var body: some View {
         NavigationView {
             List {
                 ForEach(topics, id: \.id) { topic  in
                     NavigationLink(destination: destination(forTopic: topic.topic)) {
-                        Text(topic.topicName.capitalized)
+                        Text(topic.topicName)
                     }
                 }
             }.navigationTitle("\(topics.count) days of SwiftUI")
@@ -52,6 +54,7 @@ struct MasterGroup: View {
         case .segment: return AnyView(ListWithSegmentedControlChallenge())
         case .segmentOptionalChallenge: return AnyView(ScrollViewWithSegmentControl())
         case .login: return AnyView(LoginView())
+        case .complexUI: return AnyView(MovieDetailView())
         }
     }
 }
