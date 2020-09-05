@@ -43,6 +43,12 @@
 		EE8D6D9624BC97D400F26B34 /* ShadowButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */; };
 		EE91A59D24BA489E00B225C2 /* StackChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */; };
 		EE91A62224BB736300B225C2 /* ScrollChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91A62124BB736300B225C2 /* ScrollChallenge.swift */; };
+		EEA2516125036D5200EABF55 /* GeometryReaderMasterUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2516025036D5200EABF55 /* GeometryReaderMasterUIView.swift */; };
+		EEA2516325036D6E00EABF55 /* AlertsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2516225036D6E00EABF55 /* AlertsUIView.swift */; };
+		EEA2516525037A4300EABF55 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2516425037A4300EABF55 /* AppStorageView.swift */; };
+		EEA2516825037BDE00EABF55 /* AdvancedGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2516725037BDE00EABF55 /* AdvancedGeometryReader.swift */; };
+		EEA2516B2503858C00EABF55 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2516A2503858C00EABF55 /* RegistrationView.swift */; };
+		EEA2516D2503D6B000EABF55 /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2516C2503D6B000EABF55 /* SceneStorageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +90,12 @@
 		EE8D6D9524BC97D400F26B34 /* ShadowButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonStyle.swift; sourceTree = "<group>"; };
 		EE91A59C24BA489E00B225C2 /* StackChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackChallengeView.swift; sourceTree = "<group>"; };
 		EE91A62124BB736300B225C2 /* ScrollChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollChallenge.swift; sourceTree = "<group>"; };
+		EEA2516025036D5200EABF55 /* GeometryReaderMasterUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderMasterUIView.swift; sourceTree = "<group>"; };
+		EEA2516225036D6E00EABF55 /* AlertsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsUIView.swift; sourceTree = "<group>"; };
+		EEA2516425037A4300EABF55 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		EEA2516725037BDE00EABF55 /* AdvancedGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGeometryReader.swift; sourceTree = "<group>"; };
+		EEA2516A2503858C00EABF55 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		EEA2516C2503D6B000EABF55 /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,12 @@
 		EE34BBF424D1D57D00B8A25A /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				EEA251692503857500EABF55 /* Forms */,
+				EEA2516625037B1900EABF55 /* AdvancedGeometryReader */,
+				EEA2515F25036D2200EABF55 /* StogareTypes */,
+				EEA2515E25036D1B00EABF55 /* Alerts */,
+				EEA2515D25036D0A00EABF55 /* GeometryReader */,
+				EED0913324E1A1440078BCEC /* ComplesUI2 */,
 				EE34BBFD24D6BEAA00B8A25A /* ComplexUI */,
 				EE34BBFA24D30DDC00B8A25A /* Modifiers */,
 				EE34BBF524D1D59300B8A25A /* LoginScreen */,
@@ -277,6 +295,54 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		EEA2515D25036D0A00EABF55 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2516025036D5200EABF55 /* GeometryReaderMasterUIView.swift */,
+			);
+			path = GeometryReader;
+			sourceTree = "<group>";
+		};
+		EEA2515E25036D1B00EABF55 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2516225036D6E00EABF55 /* AlertsUIView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		EEA2515F25036D2200EABF55 /* StogareTypes */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2516425037A4300EABF55 /* AppStorageView.swift */,
+				EEA2516C2503D6B000EABF55 /* SceneStorageView.swift */,
+			);
+			path = StogareTypes;
+			sourceTree = "<group>";
+		};
+		EEA2516625037B1900EABF55 /* AdvancedGeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2516725037BDE00EABF55 /* AdvancedGeometryReader.swift */,
+			);
+			path = AdvancedGeometryReader;
+			sourceTree = "<group>";
+		};
+		EEA251692503857500EABF55 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2516A2503858C00EABF55 /* RegistrationView.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		EED0913324E1A1440078BCEC /* ComplesUI2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ComplesUI2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,6 +415,8 @@
 				EE48E38A24ADAED300EC6B66 /* ImageChallengeView.swift in Sources */,
 				EE76DB3D24C307F400BEC679 /* ContactDetails.swift in Sources */,
 				EE6BACD624D6C3C90001146B /* CastAndCrewSingleView.swift in Sources */,
+				EEA2516B2503858C00EABF55 /* RegistrationView.swift in Sources */,
+				EEA2516125036D5200EABF55 /* GeometryReaderMasterUIView.swift in Sources */,
 				EE6BACD724D6C3C90001146B /* CastAndCrewsView.swift in Sources */,
 				EE7666C524B1C06900224A66 /* UIView+Custom.swift in Sources */,
 				EE34BBF324D1BA9800B8A25A /* MasterGroup.swift in Sources */,
@@ -362,16 +430,20 @@
 				EE34BC0224D6C03800B8A25A /* CastAndCrew.swift in Sources */,
 				EE5CA8EC24C2D36D008830E6 /* ListWithSegmentedControlChallenge.swift in Sources */,
 				EE91A62224BB736300B225C2 /* ScrollChallenge.swift in Sources */,
+				EEA2516325036D6E00EABF55 /* AlertsUIView.swift in Sources */,
 				EE8D6D9624BC97D400F26B34 /* ShadowButtonStyle.swift in Sources */,
 				EE544A3924AA2D7D00698415 /* TextChallengeView.swift in Sources */,
 				EE3CC71224B31A9800EAE199 /* AttributedTextChallenge.swift in Sources */,
+				EEA2516525037A4300EABF55 /* AppStorageView.swift in Sources */,
 				EE34BBF724D1D5AE00B8A25A /* LoginView.swift in Sources */,
 				EE8D6D9224BC95D000F26B34 /* ButtonChallenge.swift in Sources */,
+				EEA2516825037BDE00EABF55 /* AdvancedGeometryReader.swift in Sources */,
 				EE34BBF924D30DB600B8A25A /* UnderLinedText.swift in Sources */,
 				EE6BACD024D6C3BF0001146B /* NameAndGenreView.swift in Sources */,
 				EE34BBFC24D30DF600B8A25A /* EmailTextFieldModifier.swift in Sources */,
 				EE6BACD824D6C3C90001146B /* MovieDescriptionView.swift in Sources */,
 				EE8D6D9024BC948C00F26B34 /* GradientButtonStyle.swift in Sources */,
+				EEA2516D2503D6B000EABF55 /* SceneStorageView.swift in Sources */,
 				EE544A2B24AA2D3400698415 /* ContentView.swift in Sources */,
 				EE6BACD124D6C3BF0001146B /* GenreView.swift in Sources */,
 				EE7666C624B1C06900224A66 /* AddOverlay.swift in Sources */,

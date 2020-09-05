@@ -18,6 +18,14 @@ enum Topics {
     case segmentOptionalChallenge
     case login
     case complexUI
+    case complexUI2
+    case combineBasics
+    case formWithPickerAndDatePicker
+    case geometryReader
+    case advancedGeometryReader
+    case alerts
+    case appStorage
+    case sceneStorage
 }
 
 struct MasterGroup: View {
@@ -30,7 +38,15 @@ struct MasterGroup: View {
                                   .init(topicName: "Segment Control", topic: .segment),
                                   .init(topicName: "Segment Optional Challenge", topic: .segmentOptionalChallenge),
                                   .init(topicName: "Login Screen Challenge", topic: .login),
-                                  .init(topicName: "Complex UI", topic: .complexUI)]
+                                  .init(topicName: "Complex UI", topic: .complexUI),
+                                  .init(topicName: "Complex UI 2", topic: .complexUI2),
+                                  .init(topicName: "Combine Basics", topic: .combineBasics),
+                                  .init(topicName: "Forms", topic: .formWithPickerAndDatePicker),
+                                  .init(topicName: "Geometry Reader", topic: .geometryReader),
+                                  .init(topicName: "Advanced Geometry Reader", topic: .advancedGeometryReader),
+                                  .init(topicName: "Alerts", topic: .alerts),
+                                  .init(topicName: "Storage Types (App Storage)", topic: .appStorage),
+                                  .init(topicName: "Storage Types (Scene Storage)", topic: .sceneStorage),]
     var body: some View {
         NavigationView {
             List {
@@ -55,6 +71,14 @@ struct MasterGroup: View {
         case .segmentOptionalChallenge: return AnyView(ScrollViewWithSegmentControl())
         case .login: return AnyView(LoginView())
         case .complexUI: return AnyView(MovieDetailView())
+        case .complexUI2: return AnyView(MovieDetailView())
+        case .combineBasics: return AnyView(MovieDetailView())
+        case .formWithPickerAndDatePicker: return AnyView(RegistrationView())
+        case .geometryReader: return AnyView(GeometryReaderMasterUIView())
+        case .advancedGeometryReader: return AnyView(AdvancedGeometryReader())
+        case .alerts: return AnyView(AlertsUIView())
+        case .appStorage: return AnyView(AppStorageView())
+        case .sceneStorage: return AnyView(SceneStorageView())
         }
     }
 }
